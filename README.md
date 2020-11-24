@@ -15,7 +15,7 @@ npm install --save-dev --save-exact --ignore-scripts jest typescript @tsconfig/d
 ## use from Deno
 
 ```javascript
-#!/usr/bin/env -S deno run
+#!/usr/bin/env -S deno run --allow-net
 // TODO insert git ref instead of master here
 import promparse from 'https://github.com/Yolean/promparse/raw/master/src/promparse.ts';
 const scrape = await fetch('http://localhost:8080/metrics');
