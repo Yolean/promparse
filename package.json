@@ -1,7 +1,13 @@
 {
-  "name": "promparse",
+  "name": "@yolean/promparse",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Yolean AB",
+  "license": "Apache-2.0",
+  "main": "dist/promparse.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yolean/promparse"
+  },
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "posttest": "deno eval \"import p from './src/promparse.ts'; p('a 0.0');\"",

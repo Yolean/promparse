@@ -27,5 +27,3 @@ console.log(promparse(await scrape.text()));
 ```bash
 npm install @yolean/promparse
 ```
-
-(not published yet though)
